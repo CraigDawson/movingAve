@@ -3,7 +3,7 @@
 // FILE:     genW.cpp
 // ROLE:     TODO (some explanation)
 // CREATED:  2014-06-30 14:05:48
-// MODIFIED: 2014-06-30 14:27:15
+// MODIFIED: 2014-07-06 14:24:39
 
 #include <iostream>
 #include <random>
@@ -24,9 +24,9 @@ int main()
 	cout << double(i+1) << endl;
     }
 
-    for (int i = MAX; i >=0; --i)
+    for (int i = MAX; i > 0; --i)
     {
-	cout << double(i+1) << endl;
+	cout << double(i) << endl;
     }
 
     std::random_device rd;
