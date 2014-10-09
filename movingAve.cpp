@@ -3,7 +3,7 @@
 // FILE:     movingAve.cpp
 // ROLE:     TODO (some explanation)
 // CREATED:  2014-06-27 10:50:15
-// MODIFIED: 2014-06-27 11:15:48
+// MODIFIED: 2014-10-09 17:49:38
 
 #include <iostream>
 
@@ -15,16 +15,16 @@ int main()
 {
     try
     {
-	MovingAve ma;
+        MovingAve ma;
 
-	while( cin >> ma )
-	{
-	    cout << ma;
-	}
+        while( cin >> ma )
+        {
+            cout << ma;
+        }
     }
     catch (...)
     {
-	cerr << "unknown movingAve exception" << endl;
+        cerr << "unknown movingAve exception" << endl;
     }
 
     return 0;
